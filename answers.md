@@ -79,7 +79,66 @@ Answer 5: one tracked and one untracked file
     Untracked files:
   (use "git add <file>..." to include in what will be committed)
     answers.md
+Answer 6:
+    n branch master
+    Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    new file:   answers.md
+    new file: README.md
 
 
+
+Answer 7:
+    On branch master
+    nothing to commit, working tree clean
     
+Answer 8:
+    commit dae81c8ee12e4301fc89931a492fc40a233a1194 (HEAD -> master)
+ Author: Greta Hibbard <gh945020@ohio.edu>
+ Date:   Wed Sep 7 16:33:42 2022 -0400
+
+    Initial commit
+
+Answer 9:
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   answers.md
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    
+Answer 10: it is not the most updated version because it has not been pulled 
+    (base) gretahibbard@MacBook-Pro-31 git-lab % more README.md
+    Name: Greta Hibbard
+Git username: gretahibbard 
+
+    Email address: gh945020@ohio.edu
+    My answers are located in file answers.md
+    README.md (END)
+
+
+Answer 11: it was rejected because there are two conflicting versions
+    ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:gretahibbard/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12: After pulling from the online directory, the updates have been made in the local directory
+    Git username: gretahibbard 
+
+    Email address: gh945020@ohio.edu
+    My answers are located in file answers.md
+
+CS 2400, Section 102
+
+Answer 13:
+base) gretahibbard@MacBook-Pro-31 git-lab-2 % ls -a
+.        ..        .git        .gitignore    README.md
+
 
